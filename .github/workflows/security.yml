@@ -10,6 +10,6 @@ permissions:
   contents: read
 
 jobs:
-  gitleaks:
+  mobfscan:
     uses: gastonbarbaccia/devsecops-templates/.github/workflows/mobfscan.yml@main
     
