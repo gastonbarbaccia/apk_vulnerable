@@ -1,0 +1,15 @@
+name: Security Scan
+
+on:
+  push:
+    branches: [ "main", "security" ]
+
+permissions:
+  security-events: write
+  actions: read
+  contents: read
+
+jobs:
+  gitleaks:
+    uses: gastonbarbaccia/devsecops-templates/.github/workflows/mobfscan.yml@main
+    
