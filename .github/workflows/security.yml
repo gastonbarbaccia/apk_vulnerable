@@ -11,5 +11,5 @@ permissions:
 
 jobs:
   mobfscan:
-    uses: gastonbarbaccia/devsecops-templates/.github/workflows/mobfscan.yml@main
+    uses: gastonbarbaccia/devsecops_template/.github/workflows/mobfscan.yml@main
     
